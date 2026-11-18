@@ -1,0 +1,8 @@
+algoritma,parameter,nilai,alas
+K-Means,K,2,silhouette tertinggi
+K-Medoids,K,2,elbow cost PAM-build / sama dengan K-Means
+AHC,K,2,silhouette tertinggi / potong dendrogram
+GMM,K (BIC),6,BIC terkecil
+GMM,K (AIC),6,AIC terkecil
+DBSCAN,min_samples,18,2 × jumlah fitur
+DBSCAN,eps,12.579,knee k-distance graph
